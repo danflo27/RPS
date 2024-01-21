@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	modulev1 "github.com/cosmosregistry/example/api/module/v1"
-	"github.com/cosmosregistry/example/keeper"
+	modulev1 "github.com/danflo27/rps/api/module/v1"
+	"github.com/danflo27/rps/keeper"
 )
 
 var _ appmodule.AppModule = AppModule{}

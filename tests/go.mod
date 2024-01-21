@@ -1,4 +1,4 @@
-module github.com/cosmosregistry/example/tests
+module github.com/danflo27/rps/tests
 
 go 1.21
 
@@ -10,7 +10,7 @@ require (
 	cosmossdk.io/depinject v1.0.0-alpha.4
 	cosmossdk.io/log v1.3.0
 	github.com/cosmos/cosmos-sdk v0.50.3
-	github.com/cosmosregistry/example v1.0.0
+	github.com/danflo27/rps v1.0.0
 	github.com/stretchr/testify v1.8.4
 )
 
@@ -157,4 +157,4 @@ require (
 )
 
 // always test the latest module code.
-replace github.com/cosmosregistry/example => ../.
+replace github.com/danflo27/rps => ../.

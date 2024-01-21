@@ -1,4 +1,4 @@
-package example
+package rps
 
 import (
 	types "github.com/cosmos/cosmos-sdk/codec/types"

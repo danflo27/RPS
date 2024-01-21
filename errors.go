@@ -1,4 +1,4 @@
-package example
+package rps
 
 import "cosmossdk.io/errors"
 
